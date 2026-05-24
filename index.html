@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo da Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Colocar links de navegação em uma lista é supostamente a melhor prática para escrever o código semântico, pois permite que os leitores de tela façam uma pausa entre cada link em vez de ler todos os links como uma frase. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff">Escolhas do Leitor</a>
+            </li>
+            <li>
+              <a class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link">Seja um membro</a>
+            </li>
+            <li>
+              <a class="nav__link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">Bem-vindo à Biblioteca Triple Peaks</h1>
+            <p class="header__description">
+              Temos o prazer de abrir as portas da nossa biblioteca a todos!
+              Venha expandir seus conhecimentos de desenvolvimento, ou apenas
+              use esse belo local para trabalhar ou estudar. Esse é um lugar
+              legal para estudantes legais!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustração 'Dentro da biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Escolhas do Leitor</h2>
+          <p class="staff__subtitle">Que nossa leitora adora</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  O Menino, a Toupeira, a Raposa e o Cavalo
+                </h3>
+                <p class="card__text">
+                  Este livro conta uma história simples, de fácil entendimento
+                  gramatical mas com um significado e profundidade absurdo sobre
+                  as questões da vida e do dia a dia. Requer uma leitura atenta
+                  e reflexiva, mas é uma leitura que vale muito o esforço. Eu
+                  gosto muito a toupeira que traz muitos insights que me fizeram
+                  pensar muito sobre tudo.
+                </p>
+                <p class="card__footer">Charlie Mackesy</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">O cavaleiro preso na armadura</h3>
+                <p class="card__text">
+                  Este é um livro que também traz uma história simples, mas com
+                  um significado profundo sobre a vida no geral. Conta a
+                  história de um cavaleiro que preferiu a vaidade e o próprio
+                  ego ao invés de coisas mais importantes e acabou se
+                  arrependendo, conta a jornada deste cavaleiro e também traz
+                  muitos momentos de reflexão.
+                </p>
+                <p class="card__footer">Robert Fisher</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Sobre a breviedade da vida</h3>
+                <p class="card__text">
+                  Este livro traz uma série de ensaios escritos por Sêneca, um
+                  filósofo estoico romano, sobre a vida e a morte. Ele fala
+                  sobre como a vida é breve e como devemos aproveitar ao máximo
+                  o tempo que temos, em vez de desperdiçá-lo com futilidades.
+                  Traz muitos pensamentos de filosofia estoica.
+                </p>
+                <p class="card__footer">Sêneca</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Quem Mexeu no Meu Queijo?</h3>
+                <p class="card__text">
+                  Este livro apresenta uma parábola sobre a mudança, onde quatro
+                  personagens vivem em um labirinto e buscam por queijo, que é
+                  uma metáfora para o que queremos na vida. O livro fala sobre
+                  como lidar com as mudanças e como se adaptar a elas, trazendo
+                  muitos insights sobre a importância de estar aberto a mudanças
+                  e de não se apegar ao que é confortável.
+                </p>
+                <p class="card__footer">Spencer Johnson</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
