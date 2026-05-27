@@ -91,7 +91,7 @@
 
 .staff {
   padding: 100px 0 140px;
-  background-image: url(/images/staff_picks_background.jpg);
+  background-image: url(./images/staff_picks_background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -293,4 +293,115 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  justify-content: center;
+}
+
+.step {
+  width: 220px;
+  margin-left: 40px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  max-width: 1600px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+
+.footer__columns {
+  position: relative;
+  padding: 60px 80px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__column_content_hours {
+  margin-right: 80px;
+}
+
+.footer__column_content_social {
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  max-width: 16px;
+  max-height: 16px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.footer__copyright {
+  margin-top: 100px;
+  position: relative;
+  bottom: 60px;
+  left: 80px;
 }
